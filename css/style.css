@@ -1,0 +1,64 @@
+* , *::after , *::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color: #24353F;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.content{
+    width: 55%;
+    margin: auto;
+    border: 2px solid #24353F;
+}
+.content h1{
+    color: #17A2B8;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.form-control{
+    background-color: #24353F;
+}
+.form-control::placeholder {
+    color: #ffffff;
+    opacity: 0.7; 
+}
+.form-control:focus {
+    background-color: #24353F;
+    color: #fff;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.content .btn{
+    border: .125rem solid #17A2B8;
+    color: #17A2B8;
+    width: 100%;
+    margin-block: 1rem;
+}
+.content .btn:hover{
+    background-color: #17A2B8;
+    color: #fff;
+}
+.content p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.content a:hover{
+    text-decoration:underline;
+}
+
+.title h1{
+    color: #17A2B8;
+}
+.input-group-text {
+  background-color: transparent;
+  border-left: 0;
+  color: #fff;
+}
+
+.input-group .form-control {
+  border-right: 0;
+}
