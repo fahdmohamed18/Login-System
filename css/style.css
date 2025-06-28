@@ -12,7 +12,7 @@ body{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.7)
     ),
-    url("/bg-02.jpg");
+    url("../imgs/bg-02.jpg");
   background-size: 200% 200%;
   animation: moveSky 60s linear infinite;
 }
