@@ -21,24 +21,11 @@ It uses localStorage to manage users, validate form inputs, and control login se
 🧼 Input clearing and error message handling
 
 🛠️ Technologies Used
-HTML5
+**HTML5**
+**CSS3 (Bootstrap 5)**
+**JavaScript (ES6)**
+**Font Awesome for icons**
+**localStorage API**
 
-CSS3 (Bootstrap 5)
-
-JavaScript (ES6)
-
-Font Awesome for icons
-
-localStorage API
-
-📁 Folder Structure
-bash
-├── index.html          # Login page
-├── signup.html         # Signup page
-├── home.html           # Welcome page after login
-├── css/
-│   └── style.css       # Custom styles (if any)
-├── js/
-│   └── index.js        # Main script handling logic
 🚀 Live Demo
 🔗  https://fahdmohamed18.github.io/Login-System/
